@@ -1,4 +1,4 @@
-import { Button } from "./Button";
+import { Link } from "./Link";
 import { NavigationMenu } from "./NavigationMenu";
 import { PageText } from "./styles/PageText.styles";
 import rings from "../assets/images/pattern-rings.svg";
@@ -13,7 +13,7 @@ export function Intro() {
                 <Heading>Nice to meet you! I'm <u>Tim Landowski</u>.</Heading>
                 <PageText>Passionate SDET ready to unleash creativity in frontend development. Proficient in HTML, CSS, JavaScript, and frameworks like React. Seeking opportunities to craft visually captivating web experiences and elevate user satisfaction. Excited to contribute expertise to dynamic frontend projects that make a lasting impact.</PageText>
             </IntroMessage>
-            <Button text={"Contact Me"} href={""} />
+            <Link text={"Contact Me"} href={""} />
             <RingLeft src={rings} alt='decorative rings' aria-hidden="true"/>
             <RingRight src={rings} alt='decorative rings' aria-hidden="true"/>
         </IntroContainer>

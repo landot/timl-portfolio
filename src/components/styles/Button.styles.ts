@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const ButtonText = styled.p`
+export const LinkText = styled.p`
     margin: 0 0 10px 0;
     font-style: normal;
     font-weight: 700;
@@ -12,7 +12,7 @@ export const ButtonText = styled.p`
     white-space: nowrap;
 `
 
-export const ButtonContainer = styled.div`
+export const LinkContainer = styled.a`
     width: fit-content;
     height: fit-content;
     cursor: pointer;
@@ -22,7 +22,11 @@ export const ButtonContainer = styled.div`
     align-items: center;
     background: none;
 
-    &:hover ${ButtonText} {
+    &:hover {
+        text-decoration: none;
+    }
+
+    &:hover ${LinkText} {
         color: ${props => props.theme.colors.greenAccent};
     }
 `

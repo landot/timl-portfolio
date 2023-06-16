@@ -1,5 +1,5 @@
 import { ProjectData } from "../data/projects";
-import { Button } from "./Button";
+import { Link } from "./Link";
 import { Project } from "./Project";
 import { Heading } from "./styles/Heading.styles";
 import { ProjectGrid, ProjectsContainer, ProjectsHeader } from "./styles/Projects.styles";
@@ -9,7 +9,7 @@ export function Projects() {
         <ProjectsContainer>
             <ProjectsHeader>
                 <Heading>Projects</Heading>
-                <Button text="Contact Me" href="" />
+                <Link text="Contact Me" href="" />
             </ProjectsHeader>
             <ProjectGrid>
                 {ProjectData.map((project, index) => (

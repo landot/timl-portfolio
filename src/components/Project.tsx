@@ -1,5 +1,5 @@
 import { IProject } from "../data/projects";
-import { Button } from "./Button";
+import { Link } from "./Link";
 import { PageText } from "./styles/PageText.styles";
 import { ProjectContainer, ProjectHeader, ProjectImage, ProjectImageContainer, ProjectImageOverlay, SkillContainer } from "./styles/Project.styles";
 
@@ -8,8 +8,8 @@ export function Project(props: IProject) {
         <ProjectContainer>
             <ProjectImageContainer>
                 <ProjectImageOverlay>
-                    <Button text={"View Project"} href={props.projectUrl}/>
-                    <Button text={"View Code"} href={props.codeUrl}/>
+                    <Link text={"View Project"} href={props.projectUrl}/>
+                    <Link text={"View Code"} href={props.codeUrl}/>
                 </ProjectImageOverlay>
                 <ProjectImage src={props.imgSrc} alt={`${props.name} project screenshot`}/>
             </ProjectImageContainer>
