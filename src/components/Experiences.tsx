@@ -10,6 +10,7 @@ const ExperiencesSection = styled(SectionStyles)`
     display: flex;
     flex-direction: column;
     gap: 20px;
+    margin-bottom: 20px;
 `
 
 export function Experiences() {

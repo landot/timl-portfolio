@@ -9,12 +9,11 @@ import { Experiences } from './components/Experiences';
 import './App.css';
 
 // todo
-// project images are not the same dimensions
-// add work experience? 
 // update skills?
 // update webp files to be 1600x900 
 // host website
 // update profiles (github, linkedin, frontend mentor to use hosted website url)
+
 function App() {
   return (
     <ThemeProvider theme={theme}>
