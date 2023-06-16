@@ -1,5 +1,4 @@
 import styled from "styled-components";
-import { SectionStyles } from "./Section.styles";
 
 export const NavLink = ({className, href, children, name}: {className?: string, href: string, children: JSX.Element, name: string}) => (
     <a 
