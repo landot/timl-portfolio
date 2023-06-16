@@ -4,8 +4,9 @@ import { theme } from './theme';
 import { Projects } from './components/Projects';
 import { Skills } from './components/Skills';
 import { AppStyles, Content } from './components/styles/App.styles';
-import './App.css';
 import { NavigationMenu } from './components/NavigationMenu';
+import { Experiences } from './components/Experiences';
+import './App.css';
 
 // todo
 // project images are not the same dimensions
@@ -22,7 +23,7 @@ function App() {
           <Intro />
           <Projects />
           <Skills />
-          {/* <Experiences /> */}
+          <Experiences />
           <NavigationMenu location={'footer'} />
         </Content>
       </AppStyles>
