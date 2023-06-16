@@ -1,15 +1,9 @@
 import styled from "styled-components";
+import { SectionStyles } from "./Section.styles";
 
-export const ProjectsContainer = styled.div`
+export const ProjectsContainer = styled(SectionStyles)`
     width: 100%;
     height: fit-content;
-`
-
-export const ProjectsHeader = styled.div`
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-bottom: 80px;
 `
 
 export const ProjectGrid = styled.div`

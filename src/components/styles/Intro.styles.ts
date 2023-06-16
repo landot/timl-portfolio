@@ -1,20 +1,8 @@
 import styled from "styled-components";
+import { SectionStyles } from "./Section.styles";
+import { Heading } from "./Heading.styles";
 import { NavigationContainer } from "./NavigationMenu.styles";
 import { PageText } from "./PageText.styles";
-
-export const RingLeft = styled.img`
-    position: absolute;
-    z-index: 1;
-    left: -250px;
-    top: 80px;
-`
-
-export const RingRight = styled.img`
-    position: absolute;
-    z-index: 1;
-    right: 200px;
-    bottom:  75px;
-`
 
 export const IntroMessage = styled.div`
     z-index: 2;
@@ -30,18 +18,21 @@ export const IntroMessage = styled.div`
 
     ${PageText} {
         margin-top: 40px;
-        margin-bottom: 66px;
-        max-width: 450px;
+    }
+
+    ${Heading}, ${PageText} {
+        text-align: center;
     }
 `
 
-export const IntroContainer = styled.div`
+export const IntroSection = styled(SectionStyles)`
     display: flex;
     flex-direction: column;
+    align-items: center;
     position: relative;
     width: 100%;
-    height: 680px;
-    margin-bottom: 100px;
+    height: auto;
+
     ${NavigationContainer} {
         margin-bottom: 120px;
     }

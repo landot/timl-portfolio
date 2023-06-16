@@ -1,21 +1,19 @@
 import { ProjectData } from "../data/projects";
-import { Link } from "./Link";
 import { Project } from "./Project";
 import { Heading } from "./styles/Heading.styles";
-import { ProjectGrid, ProjectsContainer, ProjectsHeader } from "./styles/Projects.styles";
+import { ProjectGrid, ProjectsContainer as ProjectsSection } from "./styles/Projects.styles";
+import { Break } from "./styles/SectionBreak.styles";
 
 export function Projects() {
     return (
-        <ProjectsContainer>
-            <ProjectsHeader>
-                <Heading>Projects</Heading>
-                <Link text="Contact Me" href="" />
-            </ProjectsHeader>
+        <ProjectsSection>
+            <Break />
+            <Heading>Projects</Heading>
             <ProjectGrid>
                 {ProjectData.map((project, index) => (
                     <Project {...project} key={`${project.name}-${index}`}/>
                 ))}
             </ProjectGrid>
-        </ProjectsContainer>
+        </ProjectsSection>
     )
 }

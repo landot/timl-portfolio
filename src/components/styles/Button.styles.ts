@@ -21,6 +21,7 @@ export const LinkContainer = styled.a`
     justify-content: center;
     align-items: center;
     background: none;
+    text-decoration: none;
 
     &:hover {
         text-decoration: none;

@@ -7,7 +7,7 @@ export const ProjectHeader = styled.h2`
     font-size: 24px;
     line-height: 32px;
     color: ${props => props.theme.colors.white};
-    margin: 0;
+    margin-top: 20px;
 `
 
 export const ProjectContainer = styled.div`
@@ -20,9 +20,10 @@ export const ProjectContainer = styled.div`
 `
 
 export const ProjectImage = styled.img`
-    max-width: 100%;
-    max-height: 100%;
-    margin-bottom: 20px;
+    aspect-ratio: 16/9;
+    width: 100%;
+    object-fit: cover;
+    object-position: left;
 `
 
 export const ProjectImageOverlay = styled.div`
