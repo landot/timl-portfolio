@@ -11,7 +11,7 @@ export function Project(props: IProject) {
                     <Button text={"View Project"} href={props.projectUrl}/>
                     <Button text={"View Code"} href={props.codeUrl}/>
                 </ProjectImageOverlay>
-                <ProjectImage src={props.largeImgSrc} alt={`${props.name} project screenshot`}/>
+                <ProjectImage src={props.imgSrc} alt={`${props.name} project screenshot`}/>
             </ProjectImageContainer>
             <ProjectHeader>{props.name}</ProjectHeader>
             <SkillContainer>

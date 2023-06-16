@@ -1,5 +1,4 @@
 import { ThemeProvider } from 'styled-components';
-import { Contact } from './components/Contact';
 import { Intro } from './components/Intro';
 import { theme } from './theme';
 import { Projects } from './components/Projects';
@@ -19,7 +18,6 @@ function App() {
           <Projects />
         </Content>
       </AppStyles>
-      <Contact />
     </ThemeProvider>
   )
 }

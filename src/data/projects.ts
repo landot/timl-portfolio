@@ -2,59 +2,52 @@
 export interface IProject {
     name: string;
     skills: string[];
-    largeImgSrc: string;
-    smallImgSrc: string;
+    imgSrc: string;
     projectUrl: string;
     codeUrl: string;
 }
 
 export const ProjectData: IProject[] = [
     {
-        name: 'Design Portfolio',
-        skills: ['HTML', 'CSS'],
-        largeImgSrc: '/assets/images/thumbnail-project-1-large.webp',
-        smallImgSrc: '/assets/images/thumbnail-project-1-small.webp',
-        projectUrl: '',
-        codeUrl: '',
+        name: 'Kanban Webapp',
+        skills: ['HTML', 'CSS', 'React', 'Redux'],
+        imgSrc: '/assets/images/thumbnail-project-1-large.webp',
+        projectUrl: 'https://timothyl-portfolio-kanban.netlify.app/',
+        codeUrl: 'https://github.com/landot/kanban-webapp',
     },
     {
-        name: 'E-Learning Landing Page',
-        skills: ['HTML', 'CSS'],
-        largeImgSrc: '/assets/images/thumbnail-project-2-large.webp',
-        smallImgSrc: '/assets/images/thumbnail-project-2-small.webp',
-        projectUrl: '',
-        codeUrl: '',
+        name: 'E-Commerce Page',
+        skills: ['HTML', 'CSS', 'React'],
+        imgSrc: '/assets/images/thumbnail-project-1-large.webp',
+        projectUrl: 'https://timothyl-portfolio-e-commerce.netlify.app/',
+        codeUrl: 'https://github.com/landot/e-commerce-page',
     },
     {
-        name: 'Todo Web App',
-        skills: ['HTML', 'CSS', 'JAVASCRIPT'],
-        largeImgSrc: '/assets/images/thumbnail-project-3-large.webp',
-        smallImgSrc: '/assets/images/thumbnail-project-3-small.webp',
-        projectUrl: '',
-        codeUrl: '',
+        name: 'Multi-Step Form',
+        skills: ['HTML', 'CSS', 'React'],
+        imgSrc: '/assets/images/thumbnail-project-1-large.webp',
+        projectUrl: 'https://timothyl-portfolio-multi-step-form.netlify.app/',
+        codeUrl: 'https://github.com/landot/multi-step-form-app',
     },
     {
-        name: 'Entertainment Web App',
-        skills: ['HTML', 'CSS', 'JAVASCRIPT'],
-        largeImgSrc: '/assets/images/thumbnail-project-4-large.webp',
-        smallImgSrc: '/assets/images/thumbnail-project-4-small.webp',
-        projectUrl: '',
-        codeUrl: '',
+        name: 'Time Tracking Dashboard',
+        skills: ['HTML', 'CSS', 'React'],
+        imgSrc: '/assets/images/thumbnail-project-1-large.webp',
+        projectUrl: 'https://timothyl-portfolio-time-tracking-dash.netlify.app/',
+        codeUrl: 'https://github.com/landot/time-tracking-dashboard',
     },
     {
-        name: 'Memory Game',
-        skills: ['HTML', 'CSS', 'JAVASCRIPT'],
-        largeImgSrc: '/assets/images/thumbnail-project-5-large.webp',
-        smallImgSrc: '/assets/images/thumbnail-project-5-small.webp',
-        projectUrl: '',
-        codeUrl: '',
+        name: 'Crowdfund Page',
+        skills: ['HTML', 'CSS', 'React'],
+        imgSrc: '/assets/images/thumbnail-project-1-large.webp',
+        projectUrl: 'https://timothyl-portfolio-crowdfund.netlify.app/',
+        codeUrl: 'https://github.com/landot/crowdfund-project',
     },
     {
-        name: 'Art Gallery Showcase',
-        skills: ['HTML', 'CSS', 'JAVASCRIPT'],
-        largeImgSrc: '/assets/images/thumbnail-project-6-large.webp',
-        smallImgSrc: '/assets/images/thumbnail-project-6-small.webp',
-        projectUrl: '',
-        codeUrl: '',
+        name: 'Dictionary App',
+        skills: ['HTML', 'CSS', 'React', 'API', 'React-Router'],
+        imgSrc: '/assets/images/thumbnail-project-1-large.webp',
+        projectUrl: 'https://timothyl-portfolio-dictionary-app.netlify.app/snow',
+        codeUrl: 'https://github.com/landot/dictionary-app',
     },
 ]

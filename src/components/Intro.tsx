@@ -1,35 +1,21 @@
 import { Button } from "./Button";
 import { NavigationMenu } from "./NavigationMenu";
 import { PageText } from "./styles/PageText.styles";
-import useWindowSize from "../utils/useWindowSize";
 import rings from "../assets/images/pattern-rings.svg";
-import circle from "../assets/images/pattern-circle.svg";
 import { Heading } from "./styles/Heading.styles";
-import { Rings } from "./styles/Contact.styles";
-import { IntroContainer, ProfileImage, IntroMessage, Circle } from "./styles/Intro.styles";
+import { IntroContainer, IntroMessage, RingLeft, RingRight } from "./styles/Intro.styles";
 
 export function Intro() {
-    const size = useWindowSize();
-    let profilePictureSize = '';
-    if (size.width && size.width < 600) {
-        profilePictureSize = 'mobile';
-    } else if (size.width && size.width <= 800) {
-        profilePictureSize ='tablet';
-    } else {
-        profilePictureSize = 'desktop';
-    }
-
     return (
         <IntroContainer>
             <NavigationMenu location="header" />
-            <ProfileImage src={`/assets/images/image-profile-${profilePictureSize}.webp`} alt={'profile picture'}/>
             <IntroMessage>
-                <Heading>Nice to meet you! I'm <u>Adam Keyes</u>.</Heading>
-                <PageText>Based in the UK, I’m a front-end developer passionate about building accessible web apps that users love.</PageText>
+                <Heading>Nice to meet you! I'm <u>Tim Landowski</u>.</Heading>
+                <PageText>Passionate SDET ready to unleash creativity in frontend development. Proficient in HTML, CSS, JavaScript, and frameworks like React. Seeking opportunities to craft visually captivating web experiences and elevate user satisfaction. Excited to contribute expertise to dynamic frontend projects that make a lasting impact.</PageText>
             </IntroMessage>
             <Button text={"Contact Me"} href={""} />
-            <Rings src={rings} alt='decorative rings' aria-hidden="true"/>
-            <Circle src={circle} alt='decorative circle' aria-hidden="true"/>
+            <RingLeft src={rings} alt='decorative rings' aria-hidden="true"/>
+            <RingRight src={rings} alt='decorative rings' aria-hidden="true"/>
         </IntroContainer>
     )
 }

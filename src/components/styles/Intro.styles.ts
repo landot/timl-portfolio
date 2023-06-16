@@ -2,28 +2,23 @@ import styled from "styled-components";
 import { NavigationContainer } from "./NavigationMenu.styles";
 import { PageText } from "./PageText.styles";
 
-export const Rings = styled.img`
+export const RingLeft = styled.img`
     position: absolute;
     z-index: 1;
     left: -250px;
     top: 80px;
 `
 
-export const Circle = styled.img`
+export const RingRight = styled.img`
     position: absolute;
-    width: 130px;
-    z-index: 2;
-    right: 375px;
+    z-index: 1;
+    right: 200px;
     bottom:  75px;
-
-    @media screen and (max-width: ${props => props.theme.viewports.tablet})  {
-        right: -100px;
-    }
 `
 
 export const IntroMessage = styled.div`
     z-index: 2;
-    width: 60%;
+    width: 80%;
 
     u {
         text-decoration-color: ${props => props.theme.colors.greenAccent};

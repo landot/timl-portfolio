@@ -1,31 +1,23 @@
 export interface ISkill {
     name: string;
-    yearsOfExperience: number;
+    yearsOfExperience?: number;
 }
 
 export const SkillData: ISkill[] = [
-    {
-        name: 'HTML',
-        yearsOfExperience: 4
-    },
-    {
-        name: 'CSS',
-        yearsOfExperience: 4
-    },
-    {
-        name: 'Javascript',
-        yearsOfExperience: 4
-    },
-    {
-        name: 'Accessibility',
-        yearsOfExperience: 4
-    },
-    {
-        name: 'React',
-        yearsOfExperience: 3
-    },
-    {
-        name: 'Sass',
-        yearsOfExperience: 3
-    },
+    // languages
+    {name: 'Javascript'},
+    {name: 'Typescript'},
+    {name: 'Java'},
+    {name: 'Python'},
+    // frameworks
+    {name: 'React'},
+    {name: 'Redux'},
+    {name: 'React Router'},
+    {name: 'TestCafe'},
+    {name: 'Selenium'},
+    // tools
+    {name: 'Docker'},
+    {name: 'Git'},
+    {name: 'Jenkins'},
+    {name: 'Gitlab-CI'},
 ]
