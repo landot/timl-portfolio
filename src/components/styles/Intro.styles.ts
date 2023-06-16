@@ -1,8 +1,8 @@
 import styled from "styled-components";
 import { SectionStyles } from "./Section.styles";
 import { Heading } from "./Heading.styles";
-import { NavigationContainer } from "./NavigationMenu.styles";
 import { PageText } from "./PageText.styles";
+import { NavigationSection } from "./NavigationMenu.styles";
 
 export const IntroMessage = styled.div`
     z-index: 2;
@@ -33,8 +33,8 @@ export const IntroSection = styled(SectionStyles)`
     width: 100%;
     height: auto;
 
-    ${NavigationContainer} {
-        margin-bottom: 120px;
+    ${NavigationSection} {
+        margin-bottom: 50px;
     }
 
     @media screen and (max-width: ${props => props.theme.viewports.tablet})  {

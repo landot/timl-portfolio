@@ -1,4 +1,4 @@
-import { LinkContainer, LinkText, Line } from "./styles/Button.styles";
+import { LinkContainer, LinkText, Line } from "./styles/Link.styles";
 
 export function Link(props: {text: string, href: string}) {
     return (

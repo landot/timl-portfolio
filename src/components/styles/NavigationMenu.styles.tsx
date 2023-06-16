@@ -1,12 +1,19 @@
 import styled from "styled-components";
+import { SectionStyles } from "./Section.styles";
 
-export const Link = ({className, href, children, name}: {className?: string, href: string, children: JSX.Element, name: string}) => (
-    <a href={href} className={className} aria-label={`link to go to ${name}`}>
+export const NavLink = ({className, href, children, name}: {className?: string, href: string, children: JSX.Element, name: string}) => (
+    <a 
+        href={href} 
+        className={className} 
+        aria-label={`link to go to ${name}`}
+        target="_blank" 
+        rel="noopener noreferrer"
+    >
         {children}
     </a>
 )
 
-export const StyledLink = styled(Link)`
+export const StyledLink = styled(NavLink)`
     width: 24px;
     height: 24px;
     margin: 0 16px;
@@ -24,7 +31,7 @@ export const Links = styled.nav`
     align-items: center;
 `
 
-export const NavigationContainer = styled.div`
+export const NavigationSection = styled.div`
     z-index: 3;
     width: 100%;
     display: flex;
