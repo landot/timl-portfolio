@@ -20,7 +20,6 @@ export const ProjectContainer = styled.div`
 `
 
 export const ProjectImage = styled.img`
-    aspect-ratio: 16/9;
     width: 100%;
     object-fit: cover;
     object-position: left;
@@ -51,7 +50,7 @@ export const ProjectImageContainer = styled.div`
     position: relative;
 
 
-    &:hover ${ProjectImageOverlay} {
+    &:hover ${ProjectImageOverlay}, &:focus ${ProjectImageOverlay} {
         visibility: visible;
     }
 `
