@@ -9,18 +9,11 @@ export interface IProject {
 
 export const ProjectData: IProject[] = [
     {
-        name: 'Kanban Webapp',
-        skills: ['HTML', 'CSS', 'React', 'Redux'],
-        imgSrc: '/assets/images/Kanban-Board.webp',
-        projectUrl: 'https://timothyl-portfolio-kanban.netlify.app/',
-        codeUrl: 'https://github.com/landot/kanban-webapp',
-    },
-    {
-        name: 'E-Commerce Page',
-        skills: ['HTML', 'CSS', 'React'],
-        imgSrc: '/assets/images/E-commerce-product-page.webp',
-        projectUrl: 'https://timothyl-portfolio-e-commerce.netlify.app/',
-        codeUrl: 'https://github.com/landot/e-commerce-page',
+        name: 'Kanban Webapp With Firebase Authentication and Storage',
+        skills: ['Firebase', 'Auth', 'API', 'React', 'Redux'],
+        imgSrc: '/assets/images/Kanban-Experimental.webp',
+        projectUrl: 'https://add-user-authentication--timothyl-portfolio-kanban.netlify.app/',
+        codeUrl: 'https://github.com/landot/kanban-webapp/tree/add-user-authentication',
     },
     {
         name: 'Multi-Step Form',
@@ -30,11 +23,11 @@ export const ProjectData: IProject[] = [
         codeUrl: 'https://github.com/landot/multi-step-form-app',
     },
     {
-        name: 'Time Tracking Dashboard',
-        skills: ['HTML', 'CSS', 'React'],
-        imgSrc: '/assets/images/Time-Tracking-Dashboard.webp',
-        projectUrl: 'https://timothyl-portfolio-time-tracking-dash.netlify.app/',
-        codeUrl: 'https://github.com/landot/time-tracking-dashboard',
+        name: 'Dictionary App',
+        skills: ['HTML', 'CSS', 'React', 'API', 'React-Router'],
+        imgSrc: '/assets/images/Dictionary-App.webp',
+        projectUrl: 'https://timothyl-portfolio-dictionary-app.netlify.app/snow',
+        codeUrl: 'https://github.com/landot/dictionary-app',
     },
     {
         name: 'Crowdfund Page',
@@ -44,10 +37,24 @@ export const ProjectData: IProject[] = [
         codeUrl: 'https://github.com/landot/crowdfund-project',
     },
     {
-        name: 'Dictionary App',
-        skills: ['HTML', 'CSS', 'React', 'API', 'React-Router'],
-        imgSrc: '/assets/images/Dictionary-App.webp',
-        projectUrl: 'https://timothyl-portfolio-dictionary-app.netlify.app/snow',
-        codeUrl: 'https://github.com/landot/dictionary-app',
+        name: 'E-Commerce Page',
+        skills: ['HTML', 'CSS', 'React'],
+        imgSrc: '/assets/images/E-commerce-product-page.webp',
+        projectUrl: 'https://timothyl-portfolio-e-commerce.netlify.app/',
+        codeUrl: 'https://github.com/landot/e-commerce-page',
+    },
+    {
+        name: 'Time Tracking Dashboard',
+        skills: ['HTML', 'CSS', 'React'],
+        imgSrc: '/assets/images/Time-Tracking-Dashboard.webp',
+        projectUrl: 'https://timothyl-portfolio-time-tracking-dash.netlify.app/',
+        codeUrl: 'https://github.com/landot/time-tracking-dashboard',
+    },
+    {
+        name: 'Kanban Webapp (static data)',
+        skills: ['HTML', 'CSS', 'React', 'Redux'],
+        imgSrc: '/assets/images/Kanban-Board.webp',
+        projectUrl: 'https://timothyl-portfolio-kanban.netlify.app/',
+        codeUrl: 'https://github.com/landot/kanban-webapp',
     },
 ]
