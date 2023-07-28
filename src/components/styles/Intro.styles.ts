@@ -1,6 +1,6 @@
 import styled from "styled-components";
 import { SectionStyles } from "./Section.styles";
-import { Heading } from "./Heading.styles";
+import { HeadingLarge } from "./Heading.styles";
 import { PageText } from "./PageText.styles";
 import { NavigationSection } from "./NavigationMenu.styles";
 
@@ -20,7 +20,7 @@ export const IntroMessage = styled.div`
         margin-top: 40px;
     }
 
-    ${Heading}, ${PageText} {
+    ${HeadingLarge}, ${PageText} {
         text-align: center;
     }
 `

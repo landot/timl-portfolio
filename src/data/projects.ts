@@ -16,6 +16,13 @@ export const ProjectData: IProject[] = [
         codeUrl: 'https://github.com/landot/kanban-webapp/tree/add-user-authentication',
     },
     {
+        name: 'Invoice Webapp',
+        skills: ['React', 'Redux', 'RTL', 'Playwright', 'React-Router'],
+        imgSrc: '/assets/images/Invoice-Webapp.webp',
+        projectUrl: 'https://timothyl-portfolio-invoice-webapp.netlify.app/',
+        codeUrl: 'https://github.com/landot/invoice-app',
+    },
+    {
         name: 'Multi-Step Form',
         skills: ['HTML', 'CSS', 'React'],
         imgSrc: '/assets/images/Multi-Step-Form.webp',

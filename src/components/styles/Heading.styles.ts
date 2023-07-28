@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const Heading = styled.h1`
+export const HeadingLarge = styled.h1`
     font-style: normal;
     font-weight: 700;
     font-size: 88px;
@@ -18,5 +18,13 @@ export const Heading = styled.h1`
         font-size: 40px;
         line-height: 40px;
     }
+`
 
+export const HeadingMedium = styled.h2`
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    color: ${props => props.theme.colors.white};
+    margin-top: 20px;
 `

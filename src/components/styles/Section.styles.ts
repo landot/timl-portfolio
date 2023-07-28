@@ -1,5 +1,5 @@
 import styled from "styled-components"
-import { Heading } from "./Heading.styles"
+import { HeadingLarge } from "./Heading.styles"
 import { Break } from "./SectionBreak.styles"
 
 export const SectionStyles = styled.div`
@@ -10,7 +10,7 @@ export const SectionStyles = styled.div`
         margin-bottom: 20px;
     }
 
-    ${Heading} {
+    ${HeadingLarge} {
         margin-bottom: 50px;
     }
 `

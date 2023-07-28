@@ -1,7 +1,8 @@
 import { IProject } from "../data/projects";
 import { Link } from "./Link";
+import { HeadingMedium } from "./styles/Heading.styles";
 import { PageText } from "./styles/PageText.styles";
-import { ProjectContainer, ProjectHeader, ProjectImage, ProjectImageContainer, ProjectImageOverlay, SkillContainer } from "./styles/Project.styles";
+import { ProjectContainer, ProjectImage, ProjectImageContainer, ProjectImageOverlay, SkillContainer } from "./styles/Project.styles";
 
 export function Project(props: IProject) {
     return (
@@ -13,7 +14,7 @@ export function Project(props: IProject) {
                 </ProjectImageOverlay>
                 <ProjectImage src={props.imgSrc} alt={`${props.name} project screenshot`}/>
             </ProjectImageContainer>
-            <ProjectHeader>{props.name}</ProjectHeader>
+            <HeadingMedium>{props.name}</HeadingMedium>
             <SkillContainer>
                 {props.skills.map((skill, index) => (
                     <PageText key={`${skill}-${index}`}>{skill}</PageText>

@@ -16,7 +16,7 @@ export const decorators = [
           backgroundColor: 'black',
           width: '100%',
           maxWidth: '1200px',
-          height: '100dvh',
+          height: '100%',
           display: 'flex',
           justifyContent: 'center',
           padding: '20px'
