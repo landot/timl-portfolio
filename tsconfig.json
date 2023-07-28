@@ -22,7 +22,7 @@
 
     /* Turn off implicit any index errors */
     "suppressImplicitAnyIndexErrors": true,
-
+    "ignoreDeprecations": "5.0",
   },
   "include": ["src"],
   "references": [{ "path": "./tsconfig.node.json" }]
